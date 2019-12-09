@@ -1,1 +1,2 @@
-# webterms
+# disclaimer-generator
+disclaimer-generator

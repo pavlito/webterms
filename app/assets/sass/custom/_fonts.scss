@@ -1,0 +1,50 @@
+// Lato
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/fonts-Black.eot');
+  src: url('../fonts/fonts-Black.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/fonts-Black.woff2') format('woff2'),
+       url('../fonts/fonts-Black.woff') format('woff'),
+       url('../fonts/fonts-Black.ttf') format('truetype'),
+       url('../fonts/fonts-Black.svg#ubuntubold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/fonts-BlackItalic.eot');
+  src: url('../fonts/fonts-BlackItalic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/fonts-BlackItalic.woff2') format('woff2'),
+       url('../fonts/fonts-BlackItalic.woff') format('woff'),
+       url('../fonts/fonts-BlackItalic.ttf') format('truetype'),
+       url('../fonts/fonts-BlackItalic.svg#ubuntubold') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/fonts-Semibold.eot');
+  src: url('../fonts/fonts-Semibold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/fonts-Semibold.woff2') format('woff2'),
+       url('../fonts/fonts-Semibold.woff') format('woff'),
+       url('../fonts/fonts-Semibold.ttf') format('truetype'),
+       url('../fonts/fonts-Semibold.svg#ubuntubold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/fonts-SemiboldItalic.eot');
+  src: url('../fonts/fonts-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/fonts-SemiboldItalic.woff2') format('woff2'),
+       url('../fonts/fonts-SemiboldItalic.woff') format('woff'),
+       url('../fonts/fonts-SemiboldItalic.ttf') format('truetype'),
+       url('../fonts/fonts-SemiboldItalic.svg#ubuntubold') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+

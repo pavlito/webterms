@@ -1,0 +1,11 @@
+.card {
+	z-index: 1;
+	box-shadow: $box-shadow;
+}
+
+.download-container {
+	.content {
+		max-height: 38.5rem;
+		overflow-y: scroll;
+	}
+}

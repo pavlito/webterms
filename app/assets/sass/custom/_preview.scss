@@ -1,0 +1,15 @@
+.preview {
+	h1,h2,h3,h4,h5,h6 {
+		margin-top:$preview-heading-margin;
+	}
+
+	.highlight {
+		padding:$preview-padding;
+		background: $preview-bg;
+		color:d$preview-color;
+	}
+}
+
+.sect-live {
+	@extend .preview;
+}

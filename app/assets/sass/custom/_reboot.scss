@@ -1,0 +1,27 @@
+body,html, .wrapper {
+    min-height: 100vh;
+}
+a {
+    font-weight: $font-weight-bold;
+}
+.wrapper {
+    position: relative;
+    padding-bottom:2rem;
+
+}
+
+.sect-about {
+    ul {
+        padding-left: 0;
+
+        li {
+            list-style: none;
+
+            &:before {
+                content: "\2022";
+                color: $primary;
+                padding-right: $spacer;
+            }
+        }
+    }
+}

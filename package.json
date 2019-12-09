@@ -1,0 +1,37 @@
+{
+  "name": "FreePrivacyPolicy",
+  "version": "1.0.0",
+  "description": "Free Privacy Policy website html,css,js",
+  "main": "gulpfile.js",
+  "author": "Pavle Lucic",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-connect-php": "^1.0.3",
+    "gulp-svg-sprite": "^1.5.0"
+  },
+  "dependencies": {
+    "beepbeep": "^1.2.2",
+    "bootstrap": "^4.3.1",
+    "browser-sync": "^2.26.7",
+    "del": "^3.0.0",
+    "express": "^4.16.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "latest",
+    "gulp-notify": "^3.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8"
+  },
+  "browserslist": [
+    "last 2 version",
+    "> 2%"
+  ],
+  "scripts": {
+    "start": "gulp default",
+    "postinstall": "gulp build"
+  }
+}

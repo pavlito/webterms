@@ -1,0 +1,10 @@
+User-agent: SemrushBot
+User-agent: SemrushBot-SA
+User-agent: AhrefsBot
+User-agent: MJ12bot
+User-agent: rogerbot
+User-agent: dotbot
+User-agent: ia_archiver
+User-agent: magpie-crawler
+User-agent: MBCrawler
+Disallow: /
