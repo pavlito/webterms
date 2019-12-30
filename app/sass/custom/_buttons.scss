@@ -1,5 +1,9 @@
 .btn {
-	&.btn-light {
-		color:$primary;
-	}
+    &.btn-light {
+        // color: $primary;
+    }
+}
+
+.btn-link {
+    font-weight: $btn-font-weight;
 }

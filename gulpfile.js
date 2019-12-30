@@ -101,7 +101,7 @@ gulp.task('sass-build', function() {
 
 gulp.task('copy-sass', function() {
     return gulp.src([
-            'sass/**/**'
+            './sass/**/**'
         ])
         .pipe(gulp.dest('app/sass/'));
 });

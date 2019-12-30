@@ -1,9 +1,20 @@
-body, html, .wrapper {
-    min-height: 100vh;
+
+
+blockquote {
+    padding-left:2rem;
+    border-left:6px solid $gray-200;
+    margin:6rem 0 !important;
+    font-size: $font-size-base !important;
+    font-style: italic;
+    
+    &.bg-warning {
+        background-color: rgba($warning, 0.12) !important;
+    }
 }
 
 a {
-    color: $body-color;
+    color: $primary;
+    font-weight: $font-weight-bold;
 }
 
 .blog-container {
@@ -13,8 +24,8 @@ a {
 }
 
 .wrapper {
-    position: relative;
-    padding-bottom: 2rem;
+    // position: relative;
+    // padding-bottom: 2rem;
 }
 
 .sect-about {

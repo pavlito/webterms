@@ -7,9 +7,14 @@ $gray-400: #ced4da;
 $gray-500: #adb5bd;
 $gray-600: #92879F;
 $gray-700: #495057;
-$gray-800: #716E75;
-$gray-900: #27084D;
+$gray-800: #657792;
+$gray-900: #141B2E;
 $black:    #000;
+
+
+$footer-bg:        #1B2A4E;
+$footer-border:    #485472;
+
 
 $grays: ();
 // stylelint-disable-next-line scss/dollar-variabl
@@ -28,7 +33,7 @@ $grays: map-merge(
   $grays
 );
 
-$blue:    #007bff;
+$blue:    #0B4FF3;
 $indigo:  #6F0EE6;
 $purple:  #6f42c1;
 $pink:    #e83e8c;
@@ -60,10 +65,10 @@ $colors: map-merge(
   $colors
 );
 
-$primary:       $indigo;
+$primary:       $blue;
 $secondary:     $gray-600;
 $success:       $green;
-$info:          $cyan;
+$info:          $primary;
 $warning:       $yellow;
 $danger:        $red;
 $light:         $gray-100;

@@ -2,8 +2,18 @@
 footer {
 	width:100%;
 	background: $footer-bg;
-	margin-top:auto;
-	position:absolute;
 	bottom:0;
+	padding-top:$footer-padding-y;
+}
 
+.top-footer,
+.middle-footer,
+.bottom-footer {
+	padding:$footer-padding-y 0;
+	border-bottom:1px solid $footer-border;
+}
+
+.bottom-footer {
+	padding-bottom: 0;
+	border-bottom-width: 0;
 }

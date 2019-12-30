@@ -1,16 +1,41 @@
 /* Wizard */
 .add-z {
     z-index: 2;
+    position: relative;
+}
+
+.bg-form {
+    background: red;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+    background: rgba(#53C7FF, 0.05);
+}
+
+.bg-form-2 {
+    background: blue;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: -2;
+    background: rgba(#0B4FF3, 0.05);
 }
 
 #wlg_back {
     @include button-variant($white, transparent);
+
     flex-grow: 1;
+
     &:hover,
     &:focus,
     &:active {
         background: transparent;
-        border-color:transparent;
+        border-color: transparent;
     }
 
     &:disabled {
@@ -20,20 +45,24 @@
 
 #wlg_next {
     @include button-variant($primary, $primary);
-    flex-grow:2;
+
+    flex-grow: 2;
+
     &:disabled {
         display: none;
     }
 }
 
 #wlg_submit {
-    flex-grow:2;
+    flex-grow: 2;
 }
 
 .wizard {
+    overflow:hidden;
     background: $white;
     border-radius: $border-radius;
-    box-shadow: $box-shadow;
+    border:1px solid $border-color;
+    // box-shadow: $box-shadow;
 
     .btn {
         &.btn-default {
@@ -50,7 +79,7 @@
 
     .wizard-steps-title {
         background: $wizard-header-title-bg;
-        border-bottom: 1px solid $wizard-header-title-border;
+        border-bottom: 1px solid $border-color;
         border-top-left-radius: $border-radius;
         border-top-right-radius: $border-radius;
         padding: $card-spacer-x;
@@ -58,12 +87,15 @@
         ul {
             list-style: none;
             margin: 0;
+            
 
             li {
                 display: inline-block;
                 color: $wizard-step-color;
-                &:first-child {
-                    margin-right: $spacer;
+                margin-right: $spacer;
+                &:last-child {
+                    margin-right:0;
+               
                 }
 
                 &.active {
@@ -79,7 +111,7 @@
 
         h3 {
             font-size: $font-size-base;
-            color: $body-color;
+            color: $headings-color;
         }
 
         .form-group {
@@ -88,6 +120,13 @@
 
         .wlg-form-group {
             margin-top: $spacer * 2;
+        }
+
+        .wlg-form-control-radio {
+            label {
+                font-weight: $font-weight-normal;
+                color:$headings-color;
+            }
         }
 
         & .active {
@@ -160,8 +199,8 @@
         .i-checks input:checked + i:before {
             left: 4px;
             top: 4px;
-            width: 10px;
-            height: 10px;
+            width: 9px;
+            height: 9px;
             background-color: $primary;
         }
 
@@ -185,7 +224,7 @@
             width: 20px;
             height: 20px;
             line-height: 1;
-            border: 1px solid $custom-radio-checkbox-border;
+            border: 1px solid $border-color;
             background-color: $white;
             margin-left: -20px;
             margin-top: -4px;
@@ -220,8 +259,8 @@
         display: flex;
         padding: $card-spacer-y $card-spacer-x;
         justify-content: space-around;
-        button {
 
+        button {
             &#lcghl_next, &#lcghl_submit {
                 background: $primary;
                 font-size: 16px;

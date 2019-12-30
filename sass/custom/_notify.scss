@@ -1,7 +1,9 @@
 .notifyjs-bootstrap-branded {
 	background: lighten($primary, 45%) !important;
-	border-color:$primary !important;
-	color:darken($primary, 30%) !important;
+	background:$white !important;
+	
+	color:$primary !important;
+	box-shadow: $box-shadow-sm;
 }
 
 .notifyjs-corner {

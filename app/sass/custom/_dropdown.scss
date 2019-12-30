@@ -1,0 +1,22 @@
+.dropdown-menu {
+    box-shadow: $box-shadow-sm;
+}
+
+.dropdown-item {
+    font-weight: $dropdown-item-font-weight;
+
+    strong {
+    	position: relative;
+    	&:after{
+    		content:"";
+    		width:6px;
+    		height: 6px;
+    		background: $primary;
+    		border-radius: 100%;
+    		display: block;
+    		position: absolute;
+    		top:8px;
+    		left:-12px;
+    	}
+    }
+}
